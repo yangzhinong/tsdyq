@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{BCE6F49F-23EC-4258-A9D3-553FB8C64154}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Scripts\css.js" />
+    <Content Include="Scripts\css.min.js" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="index.html" />
+    <Content Include="lib\angular1.5.8.js" />
+    <Content Include="lib\angular2.min.js" />
+    <Content Include="lib\bootstrap-dialog.js" />
+    <Content Include="lib\require.js" />
+    <Content Include="Scripts\2.js" />
+    <Content Include="Scripts\bootstrap-dialog.js" />
+    <Content Include="Scripts\bootstrap-table.js" />
+    <Content Include="Scripts\h5Valid.js" />
+    <Content Include="Scripts\history\history.js" />
+    <Content Include="Scripts\jasmine-2.5.2\boot.js" />
+    <Content Include="Scripts\jasmine-2.5.2\console.js" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine-html.js" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine.css" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine.js" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine_favicon.png" />
+    <Content Include="Scripts\jquery.fileupload\cors\jquery.postmessage-transport.js" />
+    <Content Include="Scripts\jquery.fileupload\cors\jquery.xdr-transport.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-angular.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-audio.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-image.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-jquery-ui.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-process.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-ui.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-validate.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload-video.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.fileupload.js" />
+    <Content Include="Scripts\jquery.fileupload\jquery.iframe-transport.js" />
+    <Content Include="Scripts\jquery.fileupload\vendor\jquery.ui.widget.js" />
+    <Content Include="Scripts\jquery.form.js" />
+    <Content Include="Scripts\lodash\lodash.core.js" />
+    <Content Include="Scripts\lodash\lodash.core.min.js" />
+    <Content Include="Scripts\lodash\lodash.fp.js" />
+    <Content Include="Scripts\lodash\lodash.fp.min.js" />
+    <Content Include="Scripts\lodash\lodash.js" />
+    <Content Include="Scripts\lodash\lodash.min.js" />
+    <Content Include="Scripts\lodash\mapping.fp.js" />
+    <Content Include="Scripts\moment\locales.js" />
+    <Content Include="Scripts\moment\locales.min.js" />
+    <Content Include="Scripts\moment\locale\zh-cn.js" />
+    <Content Include="Scripts\moment\moment-with-locales.js" />
+    <Content Include="Scripts\moment\moment-with-locales.min.js" />
+    <Content Include="Scripts\qunit\qunit-2.0.1.css" />
+    <Content Include="Scripts\qunit\qunit-2.0.1.js" />
+    <Content Include="Scripts\require.js" />
+    <Content Include="Scripts\requirejs\example.build.js" />
+    <Content Include="Scripts\treetable\jquery.treetable.js" />
+    <Content Include="Scripts\yzn\rconfig.js" />
+    <Content Include="v21\ed.js" />
+    <Content Include="xml\build.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="chutzpah.json" />
+    <Content Include="build.js" />
+    <Content Include="r.js" />
+    <Content Include="1.bat" />
+    <Content Include="packages.config" />
+    <Content Include="css\_reset.scss" />
+    <None Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.h5validate.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jqueryvalidation1.15\additional-methods.js" />
+    <Content Include="Scripts\jqueryvalidation1.15\additional-methods.min.js" />
+    <Content Include="Scripts\jqueryvalidation1.15\jquery.validate.js" />
+    <Content Include="Scripts\jqueryvalidation1.15\jquery.validate.min.js" />
+    <Content Include="Scripts\jqueryvalidation1.15\localization\messages_zh.js" />
+    <Content Include="Scripts\jqueryvalidation1.15\localization\messages_zh.min.js" />
+    <Content Include="Scripts\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\layer.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\skin\default\icon_ext.png" />
+    <Content Include="Scripts\skin\default\textbg.png" />
+    <Content Include="Scripts\skin\default\xubox_ico0.png" />
+    <Content Include="Scripts\skin\default\xubox_loading0.gif" />
+    <Content Include="Scripts\skin\default\xubox_loading1.gif" />
+    <Content Include="Scripts\skin\default\xubox_loading2.gif" />
+    <Content Include="Scripts\skin\default\xubox_loading3.gif" />
+    <Content Include="Scripts\skin\default\xubox_title0.png" />
+    <Content Include="Scripts\skin\layer.css" />
+    <Content Include="Scripts\skin\layer.ext.css" />
+    <Content Include="Scripts\src\1.js" />
+    <Content Include="test\HtmlPage1.html" />
+    <Content Include="typings\yzn\readme.txt" />
+    <Content Include="Scripts\lodash\lodash.min.js.map">
+      <DependentUpon>lodash.min.js</DependentUpon>
+    </Content>
+    <None Include="Scripts\_references.js" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml\1.bat" />
+    <None Include="xml\nant.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="build.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="test\src\add.ts" />
+    <TypeScriptCompile Include="test\src\generator.ts" />
+    <TypeScriptCompile Include="typings\bootstrap-dialog\bootstrap-dialog.d.ts" />
+    <TypeScriptCompile Include="typings\bootstrap\bootstrap.d.ts" />
+    <TypeScriptCompile Include="typings\chosen\chosen.jquery.d.ts" />
+    <TypeScriptCompile Include="typings\datatables\datatables.d.ts" />
+    <TypeScriptCompile Include="typings\highcharts\highcharts.d.ts" />
+    <TypeScriptCompile Include="typings\history\history.d.ts" />
+    <TypeScriptCompile Include="typings\icheck\icheck.d.ts" />
+    <TypeScriptCompile Include="typings\jasmine\jasmine.d.ts" />
+    <TypeScriptCompile Include="typings\jqGrid\jqgrid.d.ts" />
+    <TypeScriptCompile Include="typings\jquery.fileupload\jquery.fileupload.d.ts" />
+    <TypeScriptCompile Include="typings\jquery.form\jquery.form.d.ts" />
+    <TypeScriptCompile Include="typings\jquery.validation\jquery.validation.d.ts" />
+    <TypeScriptCompile Include="typings\jqueryTreetable\jqueryTreetable.d.ts" />
+    <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="typings\lodash\lodash.d.ts" />
+    <TypeScriptCompile Include="typings\moment\moment.d.ts" />
+    <TypeScriptCompile Include="typings\react-bootstrap\react-bootstrap.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-create-fragment.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-css-transition-group.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-linked-state-mixin.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-perf.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-pure-render-mixin.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-test-utils.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-transition-group.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-addons-update.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-dom.d.ts" />
+    <TypeScriptCompile Include="typings\react\react-global.d.ts" />
+    <TypeScriptCompile Include="typings\react\react.d.ts" />
+    <TypeScriptCompile Include="typings\requirejs\require.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\gzUploadImg.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\kalendae.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\lotic\utils.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\zTree.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\bootstrapSelect.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\bootstrapSuggest.ts" />
+    <TypeScriptCompile Include="typings\yzn\bootstrapTable.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\html5valid.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\jsonMsg.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\layer.d.ts" />
+    <TypeScriptCompile Include="typings\yzn\windows.d.ts" />
+    <TypeScriptCompile Include="YQ\changePwd.ts" />
+    <TypeScriptCompile Include="YQ\NpsaInputData.index.ts" />
+    <TypeScriptCompile Include="YQ\Pn.Index.ts" />
+    <TypeScriptCompile Include="yzn\Test.ts" />
+    <TypeScriptCompile Include="yzn\LettersOnlyValidator.ts" />
+    <TypeScriptCompile Include="yzn\Validation.ts" />
+    <TypeScriptCompile Include="yzn\ZipCodeValidator.ts" />
+    <TypeScriptCompile Include="v21\newFun.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jqueryvalidation1.15\additional-methods.min.js.map" />
+    <Content Include="Scripts\src\1.js.map" />
+    <Content Include="Scripts\tsd.json" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\" />
+    <Folder Include="leadgood\" />
+    <Folder Include="Scripts\jqDataTable\" />
+    <Folder Include="test\spc\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>tsXL</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10237</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10237/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptJsxEmit>None</TypeScriptJsxEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptNoEmitOnError>False</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot>
+    </TypeScriptSourceRoot>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>$(ProjectDir)build.bat</PostBuildEvent>
+  </PropertyGroup>
+</Project>

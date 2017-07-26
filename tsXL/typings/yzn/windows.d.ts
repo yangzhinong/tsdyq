@@ -1,0 +1,7 @@
+﻿interface Window {
+    applicationPath?: string;
+
+    
+
+}
+
